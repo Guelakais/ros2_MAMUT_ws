@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'pozyx_listener'
+package_name = 'perm_travel'
 
 setup(
     name=package_name,
@@ -16,11 +16,11 @@ setup(
     maintainer='Guelakais',
     maintainer_email='koroyeldiores@gmail.com',
     description='TODO: Package description',
-    license='MIT_License',
+    license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'position_publisher = pozyx_listener.position_publisher:main'
+            'perm_publisher = perm_travel.perm_publisher:main'
         ],
     },
 )
